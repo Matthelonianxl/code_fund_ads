@@ -31,7 +31,7 @@
     "lodash.debounce": "^4.0.8",
     "medium-zoom": "^1.0.4",
     "moment": "^2.23.0",
-    "moment-timezone": "^0.5.23",
+    "moment-timezone": "^0.5.27",
     "noty": "^3.2.0-beta",
     "popper.js": "^1.16.0",
     "postcss-flexbugs-fixes": "^4.1.0",
