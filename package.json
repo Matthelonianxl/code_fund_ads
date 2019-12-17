@@ -11,7 +11,7 @@
     "@amcharts/amcharts4-geodata": "^4.1.1",
     "@fnando/sparkline": "^0.3.10",
     "@rails/webpacker": "^4.0.2",
-    "@typeform/embed": "^0.12.1",
+    "@typeform/embed": "^0.15.0",
     "animate.css": "^3.7.2",
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
