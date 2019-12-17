@@ -4425,9 +4425,10 @@ git@^0.1.5:
   dependencies:
     mime "1.2.9"
 
-"github-buttons@git+https://github.com/ntkme/github-buttons.git":
-  version "2.2.9"
-  resolved "git+https://github.com/ntkme/github-buttons.git#565dcce50564d68497e2580b71fcf30adac02cf3"
+github-buttons@2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/github-buttons/-/github-buttons-2.6.0.tgz#fa3e031451cee7ba05c3254fa67c73fe783104dc"
+  integrity sha512-PPGGL+l9fVc6J6ZtPNRMeVr94+NgFhZTHHz5/nNDGnt7DFeD+QRHKrEBlXNAxupw+gVLfQCUcM+l5SQ2KlqLzA==
 
 glob-parent@^3.1.0:
   version "3.1.0"
