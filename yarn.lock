@@ -1464,13 +1464,13 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
-axios@^0.16.2:
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.16.2.tgz#ba4f92f17167dfbab40983785454b9ac149c3c6d"
-  integrity sha1-uk+S8XFn37q0CYN4VFS5rBScPG0=
+axios@^0.18.1:
+  version "0.18.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
+  integrity sha512-0BfJq4NSfQXd+SkFdrvFbG7addhYSBA2mQwISr46pD6E5iqkWg02RAs8vyTT/j0RTnoYmeXauBuSv1qKwR179g==
   dependencies:
-    follow-redirects "^1.2.3"
-    is-buffer "^1.1.5"
+    follow-redirects "1.5.10"
+    is-buffer "^2.0.2"
 
 axios@^0.19.0:
   version "0.19.0"
@@ -2271,24 +2271,24 @@ codesandbox-import-util-types@^2.1.9:
   resolved "https://registry.yarnpkg.com/codesandbox-import-util-types/-/codesandbox-import-util-types-2.1.9.tgz#24ba5ec3d966f51f18b78c48d32e6411da90aa74"
   integrity sha512-Vc4qh+neVfHtS3RG+7wvaErMoEKdNTnLFnyj4Dcbn3NV7v9nlPj/z6MGhHp9S+vAjegWorFzxg9lKB1WGHTt5Q==
 
-codesandbox-import-utils@^2.1.9:
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/codesandbox-import-utils/-/codesandbox-import-utils-2.1.9.tgz#8126c08e9ab509d00a164ef5583c549b9252c7c1"
-  integrity sha512-fsymevaFbWFhT0jYHwyDvJTaEz5kBzR5celw9vbqj3uIaqjdh1CLBbZS+FtiOnJisOu+xGV9ZndnKEn5y08JGA==
+codesandbox-import-utils@^2.1.12:
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/codesandbox-import-utils/-/codesandbox-import-utils-2.1.12.tgz#0cc6b649ed8bc5ef57c9fcb1bc98b161389a4b83"
+  integrity sha512-eTP3TboAlFEZDblCf3uwnV0S3tZCKnoubDONibAE9rI2pdximDGFQdHUpHPU4509bQ6UF2w+DVExlhkxmLFenA==
   dependencies:
     codesandbox-import-util-types "^2.1.9"
     istextorbinary "^2.2.1"
     lz-string "^1.4.4"
 
-codesandbox@^2.1.10:
-  version "2.1.10"
-  resolved "https://registry.yarnpkg.com/codesandbox/-/codesandbox-2.1.10.tgz#61cd1ae35b62dd99aae829085335f6270fb514d0"
-  integrity sha512-p62wtmTLUX/j8i7VVvogVXD5FHbxNHco9jpN/DptkPIV5iLz2tnF6XPpXWNzZbJCgBAltpdbTbP+ch2vxds7Pg==
+codesandbox@^2.1.12:
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/codesandbox/-/codesandbox-2.1.12.tgz#2ab7186b9db3f49b85b27dc95c171ff05101a5c2"
+  integrity sha512-DDveHGGR3dGDgLwAbK0Z75pgA+5Mm2OwigYwrNgEc0m4anzTXWnk0CrWAIRJzDm1QCk97w17/DYl1R3LCYi3Tw==
   dependencies:
-    axios "^0.16.2"
+    axios "^0.18.1"
     chalk "^2.4.1"
     codesandbox-import-util-types "^2.1.9"
-    codesandbox-import-utils "^2.1.9"
+    codesandbox-import-utils "^2.1.12"
     commander "^2.9.0"
     datauri "^1.1.0"
     filesize "^3.6.1"
@@ -4127,7 +4127,7 @@ follow-redirects@1.5.10:
   dependencies:
     debug "=3.1.0"
 
-follow-redirects@^1.0.0, follow-redirects@^1.2.3:
+follow-redirects@^1.0.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.9.0.tgz#8d5bcdc65b7108fe1508649c79c12d732dcedb4f"
   integrity sha512-CRcPzsSIbXyVDl0QI01muNDu69S8trU4jArW9LpOt2WtC6LyUJetcIrmfHsRBx7/Jb6GHJUiuqyYxPooFfNt6A==
